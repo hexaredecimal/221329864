@@ -16,9 +16,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <title>SLT Account</title>
 
-
-
-
+   <link rel="stylesheet" type="text/css" href="slt_account_reset.css" />
+   <link rel="stylesheet" type="text/css" href="slt_account_form.css" />
+   <link rel="stylesheet" type="text/css" href="slt_account_style.css" />
 </head>
 
 <body>
@@ -30,20 +30,62 @@
    <section>
       <h1>Create Account</h1>
 
-      <!fieldset and form goes here!>
+      <!--fieldset and form goes here!-->
+      <fieldset id="account">
+         <legend>Account Information (Required)</legend>
+         <form method="POST" onsubmit="return false">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname">
 
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname">
 
+            <label for="streetaddress">Street Address</label>
+            <input type="text" name="streetaddress">
 
+            <label for="streetaddress2">Street Address (2)</label>
+            <input type="text" name="streetaddress2">
 
+            <label for="city">City</label>
+            <input type="text" name="city">
 
+            <label for="province">Province</label>
+            <select name="province">
+               <option value="FreeState">FreeState</option>
+               <option value="FreeState">KwaZulu Natal</option>
+               <option value="FreeState">Eastern Cape</option>
+               <option value="FreeState">Western Cape</option>
+               <option value="FreeState">Northern Cape</option>
+               <option value="FreeState">North West</option>
+               <option value="FreeState">Mpumalanga</option>
+               <option value="FreeState">Limpopo</option>
+               <option value="FreeState">Gauteng</option>
+            </select>
 
+            <label for="zip">Zip/Postal Code</label>
+            <input type="text" name="zip">
 
-      <!form ends here!>
+            <label for="country">Country</label>
+            <select name="country">
+               <option value="South Africa">South Africa</option>
+            </select>
+
+            <label for="phone">Phone</label>
+            <input type="text" name="phone">
+
+            <button>
+               <img src="sb_button.png">
+            </button>
+         </form>
+      <!--form ends here!-->
+      </fieldset>
 
   </section>
 
-  
+  <footer>
+    <p>SiSwati Language Tutoring; &copy; 2023 All Rights Reserved</p>
+  </footer>
 
-
+  <script type="text/javascript" src="sb_script.js"></script>
 </body>
 </html>

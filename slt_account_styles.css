@@ -14,10 +14,36 @@
 
 /* HTML and Body styles */
 
+html {
+   background-image: url(sb_back.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: rgba(230,182,144,1);;
+   font-family: Verdana, Geneva, sans-serif;
+   height: 100%;
+}
 
+body {
+   background-color: rgba(255,255,255,0.4);
+   border-left: 1px solid white;
+   border-right: 1px solid white;
+   width: 50%;
+   height: 100%;
+   margin: 0 auto;
+   translate: 5% 0%;
+}
 
 /* Header styles */
 
+header  {
+   background-color: rgba(234,145,29,0.3);
+   width: 100%;
+}
+
+header >  img {
+   width: 100%;
+}
 
 
 

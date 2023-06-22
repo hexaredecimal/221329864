@@ -1,0 +1,62 @@
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 7
+   Case Problem 2
+
+   Spice Bowl Forms Style Sheet
+
+   Filename: sb_forms.css
+
+*/
+
+/* Login Form Layout Styles */
+
+form#login {
+   float: right;
+}
+
+form#login input {
+   margin: 10px;
+}
+
+/* Form Layout Styles */
+
+form#payment {
+   background-color: rgba(206, 141, 56, 0.1);
+}
+
+fieldset {
+   border: none;
+}
+
+
+
+/* Input and Label Styles */
+
+label {
+   display: block;
+   float: left;
+   clear: left;
+   font-size: 0.9em;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   width: 180px;
+   text-align: right;
+}
+
+form#payment input, form#payment select {
+   display: block;
+   float: left;
+}
+
+
+
+
+/* Submit Button Styles */
+
+button {
+   background: transparent;
+   border: none;
+   display: block;
+   margin: 5px auto;
+}
